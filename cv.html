@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Portfolio</a>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="cv.html" class="active">CV</a></li>
+                <li><a href="competences.html">Compétences</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- CV Section -->
+    <section class="cv-section">
+        <div class="container">
+            <div class="cv-header">
+                <h1>Curriculum Vitae</h1>
+                <a href="https://votre-lien-vers-cv.pdf" target="_blank" class="btn btn-primary download-btn" id="downloadCV">
+                    <span>📥</span> Télécharger le CV (PDF)
+                </a>
+            </div>
+
+            <!-- Profile -->
+            <div class="cv-card">
+                <h2>Profil</h2>
+                <p>Étudiant en BTS SIO option SISR, passionné par l'informatique et motivé pour développer mes compétences en infrastructure réseau et développement. À la recherche de nouvelles opportunités pour contribuer à des projets stimulants.</p>
+            </div>
+
+            <!-- Formation -->
+            <div class="cv-card">
+                <h2>Formation</h2>
+                <div class="cv-item">
+                    <div class="cv-item-header">
+                        <h3>BTS SIO - Option SISR</h3>
+                        <span class="cv-date">2023 - 2025</span>
+                    </div>
+                    <p class="cv-location">Lycée / École</p>
+                    <p>Solutions d'Infrastructure, Systèmes et Réseaux</p>
+                </div>
+                <div class="cv-item">
+                    <div class="cv-item-header">
+                        <h3>Baccalauréat</h3>
+                        <span class="cv-date">2023</span>
+                    </div>
+                    <p class="cv-location">Lycée</p>
+                </div>
+            </div>
+
+            <!-- Expérience Professionnelle -->
+            <div class="cv-card">
+                <h2>Expérience Professionnelle</h2>
+                <div class="cv-item">
+                    <div class="cv-item-header">
+                        <h3>Stage - Technicien Informatique</h3>
+                        <span class="cv-date">2024</span>
+                    </div>
+                    <p class="cv-location">Entreprise</p>
+                    <ul>
+                        <li>Maintenance du parc informatique</li>
+                        <li>Support technique aux utilisateurs</li>
+                        <li>Configuration d'équipements réseau</li>
+                        <li>Documentation des interventions</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Compétences Techniques -->
+            <div class="cv-card">
+                <h2>Compétences Techniques</h2>
+                <div class="cv-skills-grid">
+                    <div class="cv-skill-category">
+                        <h3>Développement</h3>
+                        <ul>
+                            <li>HTML5 / CSS3</li>
+                            <li>JavaScript</li>
+                            <li>PHP / MySQL</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                    <div class="cv-skill-category">
+                        <h3>Systèmes</h3>
+                        <ul>
+                            <li>Windows 10/11</li>
+                            <li>Windows Server</li>
+                            <li>Linux (Ubuntu, Debian)</li>
+                            <li>Active Directory</li>
+                        </ul>
+                    </div>
+                    <div class="cv-skill-category">
+                        <h3>Réseaux</h3>
+                        <ul>
+                            <li>TCP/IP</li>
+                            <li>Configuration routeurs/switchs</li>
+                            <li>VLAN</li>
+                            <li>VPN</li>
+                        </ul>
+                    </div>
+                    <div class="cv-skill-category">
+                        <h3>Outils</h3>
+                        <ul>
+                            <li>Git / GitHub</li>
+                            <li>VirtualBox / VMware</li>
+                            <li>Packet Tracer</li>
+                            <li>Suite Office</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Langues -->
+            <div class="cv-card">
+                <h2>Langues</h2>
+                <div class="language-grid">
+                    <div class="language-item">
+                        <span class="language-name">Français</span>
+                        <span class="language-level">Langue maternelle</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="language-name">Anglais</span>
+                        <span class="language-level">Niveau intermédiaire (B1)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Centres d'intérêt -->
+            <div class="cv-card">
+                <h2>Centres d'Intérêt</h2>
+                <ul class="interests-list">
+                    <li>Veille technologique</li>
+                    <li>Cybersécurité</li>
+                    <li>Nouvelles technologies</li>
+                    <li>Gaming</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="cv.html">CV</a></li>
+                        <li><a href="competences.html">Compétences</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="contact.html">Me contacter</a></li>
+                        <li><a href="mailto:votre.email@example.com">Email</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Réseaux</h3>
+                    <ul>
+                        <li><a href="#" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/blackfires38" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Portfolio BTS SIO. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
