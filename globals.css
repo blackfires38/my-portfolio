@@ -123,3 +123,72 @@
     @apply bg-background text-foreground;
   }
 }
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-16px);
+  }
+}
+
+@keyframes revealUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes revealScale {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@layer components {
+  .floating-orb {
+    position: absolute;
+    border-radius: 9999px;
+    filter: blur(50px);
+    opacity: 0.35;
+    animation: float 8s ease-in-out infinite;
+    pointer-events: none;
+  }
+
+  .floating-orb-left {
+    width: 280px;
+    height: 280px;
+    left: -90px;
+    top: 140px;
+    background: color-mix(in oklch, var(--color-primary) 45%, transparent);
+  }
+
+  .floating-orb-right {
+    width: 220px;
+    height: 220px;
+    right: -60px;
+    top: 55%;
+    animation-delay: 1.5s;
+    background: color-mix(in oklch, var(--color-chart-2) 55%, transparent);
+  }
+
+  .reveal-up {
+    opacity: 0;
+    animation: revealUp 0.7s ease forwards;
+  }
+
+  .reveal-scale {
+    opacity: 0;
+    animation: revealScale 0.7s ease 0.15s forwards;
+  }
+}
