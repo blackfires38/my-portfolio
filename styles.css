@@ -743,7 +743,7 @@ section {
 }
 
 .skill-card {
-  background: #1e1e1e;
+  background: #ffffff;
   border-radius: 12px;
   padding: 20px;
   color: white;
@@ -768,7 +768,7 @@ section {
 
 .skill-card li {
   padding: 5px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255,255,255);
 }
 
 .skill-card li:last-child {
@@ -827,4 +827,5 @@ section {
   }
 
 }
+
 
