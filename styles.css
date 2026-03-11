@@ -746,7 +746,7 @@ section {
   background: #ffffff;
   border-radius: 12px;
   padding: 20px;
-  color: white;
+  color: dark;
   box-shadow: 0 4px 12px rgba(255,255,255);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -827,6 +827,7 @@ section {
   }
 
 }
+
 
 
 
