@@ -73,7 +73,7 @@ const projetsData: Record<string, {
       "Installation et configuration de Windows Server avec le rôle AD DS, création du domaine",
       "Structuration de l'Active Directory : création d'OU par service (Direction, Comptabilité, IT, Commercial, etc.)",
       "Création de multiples groupes de sécurité et comptes utilisateurs avec des droits adaptés",
-      "Installation et configuration de GLPI sur un serveur Linux (Apache, MariaDB, PHP)",
+      "Installation et configuration de GLPI sur un serveur Windows (Apache,XAMPP)",
       "Configuration de la synchronisation LDAP/AD dans GLPI pour importer automatiquement les utilisateurs",
       "Paramétrage des règles d'affectation dans GLPI : les utilisateurs sans groupe AD spécifique deviennent des utilisateurs simples (création de tickets uniquement)",
       "Création de comptes techniciens avec des droits étendus : gestion et résolution des tickets, accès à l'inventaire",
