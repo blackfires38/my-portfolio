@@ -9,21 +9,21 @@ const missions = [
     title: "Maintenance & Support Technique",
     slug: "maintenance-support",
     desc: "Diagnostic et résolution de problèmes matériels et logiciels, traitement de tickets d'assistance pour enseignants, surveillants et administration",
-    tasks: ["Maintenance du parc informatique", "Gestion de tickets Help Desk", "Assistance utilisateurs multi-niveaux", "Résolution d'incidents matériels et logiciels", "Documentation des interventions"],
+    tasks: ["Maintenance du parc informatique", "Gestion de tickets Share Point", "Assistance utilisateurs multi-niveaux", "Résolution d'incidents matériels et logiciels"],
   },
   {
     icon: <Globe className="w-6 h-6" />,
     title: "Infrastructure Réseau d'Entreprise",
     slug: "infrastructure-reseau",
     desc: "Nettoyage et organisation de baies de brassage, dépose de switches inutilisés, installation de prises RJ45 avec plastrons muraux",
-    tasks: ["Configuration routeurs/switchs Cisco & Ubiquiti", "Gestion des accès et VLAN/VPN", "Installation et câblage RJ45"],
+    tasks: ["Configuration switchs Ubiquiti", "Gestion des VLAN", "Installation et câblage RJ45"],
   },
   {
     icon: <Shield className="w-6 h-6" />,
     title: "Gestion Antivirus Kaspersky",
     slug: "antivirus-kaspersky",
-    desc: "Nettoyage complet de la solution : suppression des utilisateurs obsolètes, correction des éléments défectueux, resynchronisation avec l'Active Directory",
-    tasks: ["Suppression des comptes obsolètes", "Correction des éléments défectueux", "Resynchronisation Active Directory"],
+    desc: "Nettoyage complet de la solution : suppression des utilisateurs obsolètes, correction des éléments défectueux, synchronisation avec l'Active Directory",
+    tasks: ["Suppression des comptes obsolètes", "Correction des éléments défectueux", "synchronisation Active Directory"],
   },
   {
     icon: <Monitor className="w-6 h-6" />,
@@ -34,17 +34,17 @@ const missions = [
   },
   {
     icon: <Code className="w-6 h-6" />,
-    title: "Développement & Automatisation",
+    title: "Scripts d'automatisation",
     slug: "developpement-automatisation",
-    desc: "Création d'applications web et scripts d'automatisation pour optimiser les processus d'administration système",
-    tasks: ["Applications web (HTML/CSS, JavaScript, PHP)", "Scripts Python d'automatisation", "Optimisation des processus IT"],
+    desc: "Développement scripts d'automatisation pour optimiser les processus d'administration système",
+    tasks: ["Script PowerShell ", "Création et suppression de comptes réalisées en quelques minutes au lieu de plusieurs heures", "Optimisation des processus IT"],
   },
   {
     icon: <Tablet className="w-6 h-6" />,
     title: "Gestion iPads — Microsoft Intune",
     slug: "gestion-ipads-intune",
-    desc: "Préparation d'iPads avec MacBook et intégration à Microsoft Intune pour une administration centralisée, limitant les droits élèves",
-    tasks: ["Déploiement MDM via Intune", "Configuration des restrictions", "Gestion du parc Apple"],
+    desc: "Préparation d'iPads avec MacBook et intégration à Microsoft Intune pour une administration centralisée",
+    tasks: ["Déploiement MDM via Intune", "Aucun compte Apple personnel autorisé sur les appareils de l'établissement", "Gestion du parc Apple"],
   },
 ];
 
@@ -61,7 +61,7 @@ const projets = [
     title: "Infrastructure PME — Active Directory & GLPI",
     slug: "infra-pme-ad-glpi",
     desc: "Mise en place d'une infrastructure complète pour une PME avec Active Directory, GLPI et GLPI Inventory, incluant la synchronisation AD/GLPI et la gestion des rôles utilisateurs.",
-    tags: ["Active Directory", "GLPI", "GLPI Inventory", "GPO", "Ticketing"],
+    tags: ["Active Directory", "GLPI", "GLPI Inventory", "Ticketing"],
   },
 ];
 
