@@ -8,7 +8,7 @@ const techSkills = [
   { icon: <Monitor className="w-5 h-5" />, title: "Script & Automatisation", slug: "developpement-web", skills: ["Active Directory", "PowerShell"] },
   { icon: <Server className="w-5 h-5" />, title: "Systèmes", slug: "systemes", skills: ["Windows 10/11", "Windows Server", "Linux (Ubuntu/Debian)", "Active Directory"] },
   { icon: <Shield className="w-5 h-5" />, title: "Réseaux", slug: "reseaux", skills: ["IP", "Switchs", "VLAN", "VPN"] },
-  { icon: <Terminal className="w-5 h-5" />, title: "Outils", slug: "outils", skills: ["Git / GitHub", "VirtualBox / VMware", "Packet Tracer", "Suite Office"] },
+  { icon: <Terminal className="w-5 h-5" />, title: "Outils Technique", slug: "outils", skills: ["Git / GitHub", "GLPI", "Share Point", "Suite Office"] },
 ];
 
 const softSkills = [
