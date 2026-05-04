@@ -14,9 +14,8 @@ const competencesData: Record<string, {
 }> = {
   "developpement-web": {
     icon: <Monitor className="w-8 h-8" />,
-    title: "Développement Web",
-    description:
-      "Maîtrise des langages fondamentaux du développement web, du front-end au back-end. Capable de concevoir des interfaces utilisateur modernes et responsives, de développer des API et d'interagir avec des bases de données pour créer des applications complètes.",
+    title: "Script & Automatisation",
+    description: "Utilisation de PowerShell pour automatiser les tâches d'administration système et de gestion des utilisateurs dans un environnement Windows Server / Active Directory.",
     technologies: [
       { name: "PowerShell", detail: "Écriture de scripts d'automatisation, manipulation de fichiers CSV, interaction avec l'Active Directory, création et suppression de comptes en masse" },
       { name: "Active Directory", detail: "Gestion des utilisateurs, groupes et unités organisationnelles via scripts et console graphique" },
@@ -36,22 +35,22 @@ const competencesData: Record<string, {
     icon: <Server className="w-8 h-8" />,
     title: "Systèmes",
     description:
-      "Administration de systèmes d'exploitation Windows et Linux en environnement professionnel. Gestion d'un domaine Active Directory complet incluant la création d'utilisateurs, le déploiement de stratégies de groupe (GPO) et la maintenance des serveurs.",
+      "Administration de systèmes d'exploitation Windows et Linux en formation et en entreprise. Gestion d'un domaine Active Directory complet incluant la création d'utilisateurs, le déploiement de stratégies de groupe (GPO) et la maintenance des serveurs.",
     technologies: [
-      { name: "Windows 10/11", detail: "Installation, configuration, dépannage, masterisation de postes, déploiement via WDS/Clonezilla" },
-      { name: "Windows Server", detail: "Administration de rôles serveur : AD DS, DNS, DHCP, serveur de fichiers, gestion des sauvegardes" },
+      { name: "Windows 10/11", detail: "Installation, configuration, dépannage, déploiement de postes" },
+      { name: "Windows Server", detail: "Administration de rôles serveur : AD DS, DNS, DHCP " },
       { name: "Linux (Ubuntu/Debian)", detail: "Administration en ligne de commande, gestion des services, configuration réseau, scripting Bash" },
-      { name: "Active Directory", detail: "Création et gestion d'utilisateurs/groupes, unités organisationnelles, GPO, scripts PowerShell d'automatisation" },
+      { name: "Active Directory", detail: "Création et gestion d'utilisateurs/groupes, GPO, scripts PowerShell d'automatisation" },
     ],
     missions: [
       "Administration quotidienne de l'Active Directory du lycée (comptes, groupes, GPO)",
       "Déploiement et maintenance de postes Windows 10/11",
-      "Gestion de Windows Server pour les services réseau (DNS, DHCP, fichiers)",
+      "Gestion de Windows Server pour les services réseau (DNS, DHCP,)",
     ],
     exemples: [
       "Création en masse de comptes utilisateurs via scripts PowerShell",
       "Déploiement de GPO de sécurité sur l'ensemble du parc",
-      "Masterisation et déploiement de postes avec image standardisée",
+      "Déploiement de postes avec image standardisée",
     ],
   },
   reseaux: {
@@ -60,19 +59,18 @@ const competencesData: Record<string, {
     description:
       "Conception, déploiement et maintenance d'infrastructures réseau. Expérience pratique en câblage, configuration d'équipements actifs (routeurs, switches) et segmentation réseau par VLAN pour sécuriser et optimiser les communications.",
     technologies: [
-      { name: "TCP/IP", detail: "Compréhension du modèle OSI, adressage IPv4/IPv6, sous-réseaux, diagnostic avec ping/traceroute/nslookup" },
-      { name: "Routeurs / Switchs", detail: "Configuration Cisco IOS et Ubiquiti UniFi, routage inter-VLAN, ACL, spanning-tree" },
-      { name: "VLAN", detail: "Segmentation réseau pour isoler les flux (administration, pédagogie, élèves, Wi-Fi), trunking 802.1Q" },
-      { name: "VPN", detail: "Mise en place de tunnels VPN pour l'accès distant sécurisé, compréhension des protocoles IPsec et SSL/TLS" },
+      { name: "IP", detail: "Compréhension du modèle OSI, adressage IPv4, sous-réseaux, diagnostic avec ping" },
+      { name: "Switchs", detail: "Configuration Ubiquiti UniFi, configuration inter-VLAN" },
+      { name: "VLAN", detail: "Segmentation réseau pour isoler les flux (administration, élèves, Wi-Fi)" },
     ],
     missions: [
-      "Restructuration complète de l'infrastructure réseau du lycée",
-      "Configuration de VLANs et routage inter-VLAN sur équipements Cisco",
-      "Déploiement de bornes Wi-Fi Ubiquiti sur l'ensemble de l'établissement",
+      "Restructuration de l'infrastructure réseau du lycée",
+      "Configuration de VLANs sur switch Ubiquiti et FS ",
+      "Déploiement de bornes Wi-Fi Ubiquiti dans l'établissement",
     ],
     exemples: [
       "Réorganisation des baies de brassage avec étiquetage systématique",
-      "Mise en place de 4 VLANs sécurisés (admin, pédagogie, élèves, Wi-Fi)",
+      "Mise en place de VLANs sécurisés (admin, élèves, Wi-Fi)",
       "Installation de prises RJ45 avec plastrons muraux dans les salles de cours",
     ],
   },
