@@ -30,7 +30,7 @@ const cvHref = `${import.meta.env.BASE_URL}Cv%20Cattin%20Nathan.pdf`;
 
 const Parcours = () => (
   <section className="py-24 px-15">
-    <div className="max-w-4xl mx-auto">
+    <div className="max-w-10xl mx-auto">
       <SectionTitle label="CV" title="Mon Parcours" />
 
       <div className="mt-8 flex justify-center">
@@ -53,7 +53,7 @@ const Parcours = () => (
           </div>
           <div className="rounded-xl border border-border bg-card p-6 card-hover">
             <p className="text-muted-foreground leading-relaxed">
-              Étudiant en BTS SIO option SISR, passionné par l'informatique et motivé pour développer mes compétences en infrastructure réseau et développement. À la recherche de nouvelles opportunités pour continuer mes études dans ce domaine passionnant qu'est l'informatique.
+              Nathan Cattin, 20 ans, étudiant en BTS SIO option SISR en alternance au Lycée Saint-Marc à Nivolas-Vermelle.Attiré par les infrastructures et l'administration système depuis le lycée, j'ai naturellement orienté mon cursus vers le BTS SIO option SISR. Mon alternance m'a permis de développer des compétences concrètes sur des environnements professionnels réels : gestion de parc, Active Directory, sécurité, déploiement mobile. Je souhaite poursuivre dans ce domaine après mon BTS.
             </p>
           </div>
         </motion.div>
