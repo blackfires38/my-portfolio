@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
 const techSkills = [
-  { icon: <Monitor className="w-5 h-5" />, title: "Développement Web", slug: "developpement-web", skills: ["HTML5 / CSS3", "JavaScript", "PHP / MySQL", "Python"] },
+  { icon: <Monitor className="w-5 h-5" />, title: "Script & Automatisation", slug: "developpement-web", skills: ["Active Directory", "PowerShell"] },
   { icon: <Server className="w-5 h-5" />, title: "Systèmes", slug: "systemes", skills: ["Windows 10/11", "Windows Server", "Linux (Ubuntu/Debian)", "Active Directory"] },
-  { icon: <Shield className="w-5 h-5" />, title: "Réseaux", slug: "reseaux", skills: ["TCP/IP", "Routeurs/Switchs", "VLAN", "VPN"] },
+  { icon: <Shield className="w-5 h-5" />, title: "Réseaux", slug: "reseaux", skills: ["IP", "Switchs", "VLAN", "VPN"] },
   { icon: <Terminal className="w-5 h-5" />, title: "Outils", slug: "outils", skills: ["Git / GitHub", "VirtualBox / VMware", "Packet Tracer", "Suite Office"] },
 ];
 
