@@ -20,10 +20,10 @@ const langues = [
 ];
 
 const competencesTech = [
-  { icon: <Code className="w-4 h-4" />, label: "Développement", items: ["HTML/CSS", "JavaScript", "PHP/MySQL", "Python"] },
+  { icon: <Code className="w-4 h-4" />, label: "Script & Automatisation", items: ["Active Directory", "PowerShell", "CSV", "Charlemagne"] },
   { icon: <Server className="w-4 h-4" />, label: "Systèmes", items: ["Windows 10/11", "Linux", "Active Directory"] },
-  { icon: <Network className="w-4 h-4" />, label: "Réseaux", items: ["TCP/IP", "VLAN", "VPN", "Routeurs/Switchs"] },
-  { icon: <Wrench className="w-4 h-4" />, label: "Outils", items: ["Git", "VirtualBox/VMware", "Packet Tracer", "Suite Office"] },
+  { icon: <Network className="w-4 h-4" />, label: "Réseaux", items: ["IP", "VLAN", "Switchs","Pare-Feu Stormshield"] },
+  { icon: <Wrench className="w-4 h-4" />, label: "Outils Techniques", items: ["Git", "GLPI", "Share Point", "Suite Office"] },
 ];
 
 const cvHref = `${import.meta.env.BASE_URL}Cv%20Cattin%20Nathan.pdf`;
