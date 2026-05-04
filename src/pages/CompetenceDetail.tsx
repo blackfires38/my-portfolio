@@ -76,24 +76,24 @@ const competencesData: Record<string, {
   },
   outils: {
     icon: <Terminal className="w-8 h-8" />,
-    title: "Outils",
-    description:
-      "Utilisation quotidienne d'outils professionnels pour le développement, la virtualisation, la simulation réseau et la bureautique. Ces outils me permettent d'être efficace dans mes missions et de travailler de manière structurée et collaborative.",
+    title: "Outils professionnels",
+    description:"Utilisation quotidienne d'outils professionnels pour la virtualisation et la gestion de projets..",
     technologies: [
-      { name: "Git / GitHub", detail: "Versionning de code, branches, pull requests, collaboration, déploiement via GitHub Pages/Actions" },
-      { name: "VirtualBox / VMware", detail: "Création et gestion de machines virtuelles pour les tests, labs réseau et environnements de développement" },
-      { name: "Packet Tracer", detail: "Simulation d'architectures réseau, configuration de routeurs/switches, tests de connectivité" },
+      { name: "Proxmox", detail: "Création et gestion de machines virtuelles, déploiement de serveurs en environnement de production dans le cadre de ma scolaritée" },
+      { name: "GLPI", detail: "Gestion du parc informatique, suivi des adresses IP" },
+      { name: "SharePoint", detail: "Gestion et suivi des tickets d'assistance utilisateurs au sein du lycée" },
       { name: "Suite Office", detail: "Rédaction de documentation technique, tableaux de bord, présentations professionnelles" },
+      { name: "GitHub", detail: "Hébergement et déploiement du portfolio professionnel via GitHub Pages" },
     ],
     missions: [
-      "Versionning de tous les projets de développement avec Git",
-      "Labs de simulation réseau avec Packet Tracer pour tester avant déploiement",
-      "Environnements virtualisés pour les tests système et réseau",
+      "Utilisation de GLPI pour le suivi du parc et la gestion des adresses IP",
+      "Traitement des tickets utilisateurs via SharePoint",
+      "Déploiement du portfolio sur GitHub",
     ],
     exemples: [
       "Déploiement automatisé du portfolio via GitHub Actions",
-      "Simulation de topologies réseau complexes avant mise en production",
-      "Documentation technique rédigée pour chaque intervention majeure",
+      "Suivi du parc informatique via GLPI",
+      "Gestion des demandes utilisateurs via SharePoint",
     ],
   },
 };
