@@ -29,8 +29,8 @@ const competencesTech = [
 const cvHref = `${import.meta.env.BASE_URL}Cv%20Cattin%20Nathan.pdf`;
 
 const Parcours = () => (
-  <section className="py-24 px-15">
-    <div className="max-w-10xl mx-auto">
+  <section className="py-30 px-6">
+    <div className="max-w-4xl mx-auto">
       <SectionTitle label="CV" title="Mon Parcours" />
 
       <div className="mt-8 flex justify-center">
