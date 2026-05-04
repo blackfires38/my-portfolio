@@ -18,20 +18,18 @@ const competencesData: Record<string, {
     description:
       "Maîtrise des langages fondamentaux du développement web, du front-end au back-end. Capable de concevoir des interfaces utilisateur modernes et responsives, de développer des API et d'interagir avec des bases de données pour créer des applications complètes.",
     technologies: [
-      { name: "HTML5 / CSS3", detail: "Structuration sémantique de pages web, mise en page responsive avec Flexbox et Grid, animations CSS" },
-      { name: "JavaScript", detail: "Manipulation du DOM, gestion d'événements, requêtes asynchrones (fetch/AJAX), frameworks modernes (React)" },
-      { name: "PHP / MySQL", detail: "Développement back-end, requêtes SQL, CRUD, gestion de sessions et authentification" },
-      { name: "Python", detail: "Scripts d'automatisation, traitement de fichiers, interaction avec des API, automatisation de tâches système" },
+      { name: "PowerShell", detail: "Écriture de scripts d'automatisation, manipulation de fichiers CSV, interaction avec l'Active Directory, création et suppression de comptes en masse" },
+      { name: "Active Directory", detail: "Gestion des utilisateurs, groupes et unités organisationnelles via scripts et console graphique" },
     ],
     missions: [
-      "Développement de ce portfolio en React / TypeScript / Tailwind CSS",
-      "Création d'applications web internes en PHP pour le lycée",
-      "Scripts Python d'automatisation pour l'administration système",
+      "Scripts de création de comptes élèves et enseignants depuis les exports Charlemagne",
+      "Scripts de suppression des comptes en fin d'année scolaire",
+      "Automatisation des tâches d'administration récurrentes",
     ],
     exemples: [
-      "Portfolio professionnel déployé sur GitHub Pages avec React et Framer Motion",
-      "Application PHP de gestion interne avec authentification et base de données MySQL",
-      "Scripts Python de sauvegarde automatisée et de génération de rapports",
+      "Script de création en masse de comptes élèves à partir d'un fichier CSV Charlemagne",
+      "Script de suppression des comptes inactifs en fin d'année",
+      "Script de création de comptes enseignants avec affectation aux groupes AD",
     ],
   },
   systemes: {
