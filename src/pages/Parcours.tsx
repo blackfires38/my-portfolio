@@ -11,7 +11,7 @@ const formations = [
 ];
 
 const experiences = [
-  { year: "2025 – 2026", title: "Alternance — Technicien Informatique", company: "Lycée Saint-Marc", tasks: ["Maintenance du parc informatique", "Support technique aux utilisateurs", "Configuration d'équipements réseau", "Administration Active Directory", "Gestion antivirus Kaspersky", "Documentation des interventions"] },
+  { year: "2025 – 2026", title: "Alternance — Technicien Informatique", company: "Lycée Saint-Marc", tasks: ["Maintenance du parc informatique", "Support technique aux utilisateurs", "Configuration d'équipements réseau", "Administration Active Directory", "Gestion antivirus Kaspersky"] },
 ];
 
 const langues = [
